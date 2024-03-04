@@ -1,0 +1,14 @@
+
+<p> Cadastro de Usuarios</p>
+<form>
+<div class="mb-6">
+<label for="nome" class="form-label"> Nome: </label>
+<input type="text" class="form-control" name="nome" id="nome" class="" [formControl] = "nome">
+</div>
+<div class="mb-6">
+<label for="idade" class="form-label"> Idade: </label>
+<input type="text" class="form-control" name="idade" id="idade" [formControl] ="idade">
+</div>
+
+<button (click)="salvar()" class="btn btn-primary">Enviar</button>
+</form>
